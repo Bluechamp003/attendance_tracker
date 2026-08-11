@@ -49,7 +49,7 @@ def load_courses():
 
     return courses
 
-            _
+            
 if "courses" not in st.session_state:
     st.session_state.courses = load_courses()
 
